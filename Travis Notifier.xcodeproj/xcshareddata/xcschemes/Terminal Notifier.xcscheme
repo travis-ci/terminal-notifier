@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5199791315B1F92B003AFC57"
-               BuildableName = "terminal-notifier.app"
-               BlueprintName = "terminal-notifier"
-               ReferencedContainer = "container:Terminal Notifier.xcodeproj">
+               BuildableName = "Travis CI.app"
+               BlueprintName = "Travis CI"
+               ReferencedContainer = "container:Travis Notifier.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5199791315B1F92B003AFC57"
-            BuildableName = "terminal-notifier.app"
-            BlueprintName = "terminal-notifier"
-            ReferencedContainer = "container:Terminal Notifier.xcodeproj">
+            BuildableName = "Travis CI.app"
+            BlueprintName = "Travis CI"
+            ReferencedContainer = "container:Travis Notifier.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -52,9 +52,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5199791315B1F92B003AFC57"
-            BuildableName = "terminal-notifier.app"
-            BlueprintName = "terminal-notifier"
-            ReferencedContainer = "container:Terminal Notifier.xcodeproj">
+            BuildableName = "Travis CI.app"
+            BlueprintName = "Travis CI"
+            ReferencedContainer = "container:Travis Notifier.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <CommandLineArguments>
@@ -124,9 +124,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5199791315B1F92B003AFC57"
-            BuildableName = "terminal-notifier.app"
-            BlueprintName = "terminal-notifier"
-            ReferencedContainer = "container:Terminal Notifier.xcodeproj">
+            BuildableName = "Travis CI.app"
+            BlueprintName = "Travis CI"
+            ReferencedContainer = "container:Travis Notifier.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -2,7 +2,7 @@
 #import <ScriptingBridge/ScriptingBridge.h>
 #import <objc/runtime.h>
 
-NSString * const TerminalNotifierBundleID = @"nl.superalloy.oss.terminal-notifier";
+NSString * const TerminalNotifierBundleID = @"org.travis-ci.oss.travis-notifier";
 NSString * const NotificationCenterUIBundleID = @"com.apple.notificationcenterui";
 
 NSString *_fakeBundleIdentifier = nil;
@@ -154,7 +154,7 @@ InstallFakeBundleIdentifierHook()
       if (defaults[@"execute"])  options[@"command"]  = defaults[@"execute"];
       if (defaults[@"open"])     options[@"open"]     = [defaults[@"open"] stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
 
-      [self deliverNotificationWithTitle:defaults[@"title"] ?: @"Terminal"
+      [self deliverNotificationWithTitle:defaults[@"title"] ?: @"Travis"
                                 subtitle:subtitle
                                  message:message
                                  options:options

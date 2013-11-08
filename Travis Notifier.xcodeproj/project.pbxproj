@@ -14,25 +14,25 @@
 		5199792C15B1F92B003AFC57 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5199792B15B1F92B003AFC57 /* AppDelegate.m */; };
 		5199792F15B1F92B003AFC57 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5199792D15B1F92B003AFC57 /* MainMenu.xib */; };
 		5199794215B2F908003AFC57 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5199794115B2F908003AFC57 /* ScriptingBridge.framework */; };
-		5199794C15B302F1003AFC57 /* Terminal.icns in Resources */ = {isa = PBXBuildFile; fileRef = 5199794B15B302F1003AFC57 /* Terminal.icns */; };
+		B5140E7718183A700056205F /* Travis CI.icns in Resources */ = {isa = PBXBuildFile; fileRef = B5140E7618183A700056205F /* Travis CI.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5199791415B1F92B003AFC57 /* terminal-notifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "terminal-notifier.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5199791415B1F92B003AFC57 /* Travis CI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Travis CI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5199791815B1F92B003AFC57 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		5199791B15B1F92B003AFC57 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		5199791C15B1F92B003AFC57 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		5199791D15B1F92B003AFC57 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		5199792015B1F92B003AFC57 /* Terminal Notifier-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Terminal Notifier-Info.plist"; sourceTree = "<group>"; };
+		5199792015B1F92B003AFC57 /* Travis Notifier-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Travis Notifier-Info.plist"; sourceTree = "<group>"; };
 		5199792215B1F92B003AFC57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5199792415B1F92B003AFC57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5199792615B1F92B003AFC57 /* Terminal Notifier-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Terminal Notifier-Prefix.pch"; sourceTree = "<group>"; };
+		5199792615B1F92B003AFC57 /* Travis Notifier-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Travis Notifier-Prefix.pch"; sourceTree = "<group>"; };
 		5199792815B1F92B003AFC57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		5199792A15B1F92B003AFC57 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5199792B15B1F92B003AFC57 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5199792E15B1F92B003AFC57 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		5199794115B2F908003AFC57 /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
-		5199794B15B302F1003AFC57 /* Terminal.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Terminal.icns; sourceTree = "<group>"; };
+		B5140E7618183A700056205F /* Travis CI.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Travis CI.icns"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +51,9 @@
 		5199790915B1F92B003AFC57 = {
 			isa = PBXGroup;
 			children = (
-				5199794B15B302F1003AFC57 /* Terminal.icns */,
+				B5140E7618183A700056205F /* Travis CI.icns */,
 				5199794115B2F908003AFC57 /* ScriptingBridge.framework */,
-				5199791E15B1F92B003AFC57 /* Terminal Notifier */,
+				5199791E15B1F92B003AFC57 /* Travis Notifier */,
 				5199791715B1F92B003AFC57 /* Frameworks */,
 				5199791515B1F92B003AFC57 /* Products */,
 			);
@@ -62,7 +62,7 @@
 		5199791515B1F92B003AFC57 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5199791415B1F92B003AFC57 /* terminal-notifier.app */,
+				5199791415B1F92B003AFC57 /* Travis CI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,7 +86,7 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		5199791E15B1F92B003AFC57 /* Terminal Notifier */ = {
+		5199791E15B1F92B003AFC57 /* Travis Notifier */ = {
 			isa = PBXGroup;
 			children = (
 				5199792A15B1F92B003AFC57 /* AppDelegate.h */,
@@ -94,16 +94,17 @@
 				5199792D15B1F92B003AFC57 /* MainMenu.xib */,
 				5199791F15B1F92B003AFC57 /* Supporting Files */,
 			);
+			name = "Travis Notifier";
 			path = "Terminal Notifier";
 			sourceTree = "<group>";
 		};
 		5199791F15B1F92B003AFC57 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5199792015B1F92B003AFC57 /* Terminal Notifier-Info.plist */,
+				5199792015B1F92B003AFC57 /* Travis Notifier-Info.plist */,
 				5199792115B1F92B003AFC57 /* InfoPlist.strings */,
 				5199792415B1F92B003AFC57 /* main.m */,
-				5199792615B1F92B003AFC57 /* Terminal Notifier-Prefix.pch */,
+				5199792615B1F92B003AFC57 /* Travis Notifier-Prefix.pch */,
 				5199792715B1F92B003AFC57 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
@@ -112,9 +113,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5199791315B1F92B003AFC57 /* terminal-notifier */ = {
+		5199791315B1F92B003AFC57 /* Travis CI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5199793215B1F92B003AFC57 /* Build configuration list for PBXNativeTarget "terminal-notifier" */;
+			buildConfigurationList = 5199793215B1F92B003AFC57 /* Build configuration list for PBXNativeTarget "Travis CI" */;
 			buildPhases = (
 				5199791015B1F92B003AFC57 /* Sources */,
 				5199791115B1F92B003AFC57 /* Frameworks */,
@@ -124,9 +125,9 @@
 			);
 			dependencies = (
 			);
-			name = "terminal-notifier";
+			name = "Travis CI";
 			productName = "Terminal Notifier";
-			productReference = 5199791415B1F92B003AFC57 /* terminal-notifier.app */;
+			productReference = 5199791415B1F92B003AFC57 /* Travis CI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -137,8 +138,13 @@
 			attributes = {
 				LastUpgradeCheck = 0440;
 				ORGANIZATIONNAME = "Eloy Durán";
+				TargetAttributes = {
+					5199791315B1F92B003AFC57 = {
+						DevelopmentTeam = RS5FZKPL47;
+					};
+				};
 			};
-			buildConfigurationList = 5199790E15B1F92B003AFC57 /* Build configuration list for PBXProject "Terminal Notifier" */;
+			buildConfigurationList = 5199790E15B1F92B003AFC57 /* Build configuration list for PBXProject "Travis Notifier" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -150,7 +156,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5199791315B1F92B003AFC57 /* terminal-notifier */,
+				5199791315B1F92B003AFC57 /* Travis CI */,
 			);
 		};
 /* End PBXProject section */
@@ -163,7 +169,7 @@
 				5199792315B1F92B003AFC57 /* InfoPlist.strings in Resources */,
 				5199792915B1F92B003AFC57 /* Credits.rtf in Resources */,
 				5199792F15B1F92B003AFC57 /* MainMenu.xib in Resources */,
-				5199794C15B302F1003AFC57 /* Terminal.icns in Resources */,
+				B5140E7718183A700056205F /* Travis CI.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +267,13 @@
 		5199793315B1F92B003AFC57 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Terminal Notifier/Terminal Notifier-Prefix.pch";
-				INFOPLIST_FILE = "Terminal Notifier/Terminal Notifier-Info.plist";
+				GCC_PREFIX_HEADER = "Terminal Notifier/Travis Notifier-Prefix.pch";
+				INFOPLIST_FILE = "Terminal Notifier/Travis Notifier-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -274,10 +283,13 @@
 		5199793415B1F92B003AFC57 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Terminal Notifier/Terminal Notifier-Prefix.pch";
-				INFOPLIST_FILE = "Terminal Notifier/Terminal Notifier-Info.plist";
+				GCC_PREFIX_HEADER = "Terminal Notifier/Travis Notifier-Prefix.pch";
+				INFOPLIST_FILE = "Terminal Notifier/Travis Notifier-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -287,7 +299,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5199790E15B1F92B003AFC57 /* Build configuration list for PBXProject "Terminal Notifier" */ = {
+		5199790E15B1F92B003AFC57 /* Build configuration list for PBXProject "Travis Notifier" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5199793015B1F92B003AFC57 /* Debug */,
@@ -296,7 +308,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5199793215B1F92B003AFC57 /* Build configuration list for PBXNativeTarget "terminal-notifier" */ = {
+		5199793215B1F92B003AFC57 /* Build configuration list for PBXNativeTarget "Travis CI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5199793315B1F92B003AFC57 /* Debug */,

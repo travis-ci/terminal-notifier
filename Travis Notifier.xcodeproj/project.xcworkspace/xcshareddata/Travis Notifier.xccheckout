@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9A232A34-74A4-42DA-A1DF-E98326F7B526</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Travis Notifier</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E1680C70-D5D3-419A-8869-86A5B1CFB25C</key>
+		<string>https://github.com/alloy/terminal-notifier.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Travis Notifier.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E1680C70-D5D3-419A-8869-86A5B1CFB25C</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/alloy/terminal-notifier.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E1680C70-D5D3-419A-8869-86A5B1CFB25C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E1680C70-D5D3-419A-8869-86A5B1CFB25C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>terminal-notifier</string>
+		</dict>
+	</array>
+</dict>
+</plist>
